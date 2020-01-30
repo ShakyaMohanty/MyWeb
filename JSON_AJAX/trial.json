@@ -1,0 +1,26 @@
+[
+    {
+        "name":"HelloMeon",
+        "species":"Cat",
+        "food":{
+            "likes":["fish", "chicken", "soup"],
+            "dislikes":["cake", "noodles", "rice"]
+        }
+    },
+    {
+        "name":"Arnab",
+        "species":"dog",
+        "food":{
+            "likes":["GowMootra", "pedegree", "ModiGooh"],
+            "dislikes":["Powha", "Biryani", "Simiya"]
+        }
+    },
+    {
+        "name":"meetu",
+        "species":"Bird",
+        "food":{
+            "likes":["guava", "chili", "rice"],
+            "dislikes":["Roti", "Idli", "Curd"]
+        }
+    }
+]

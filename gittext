@@ -1,0 +1,50 @@
+GIT commands
+------------
+
+git config --global user.name "ShakyaMohanty" //register my github username onto git
+git config --global user.email "saani.ptech8@gmail.com"
+git config --list
+
+//where this file located
+pwd
+
+ls -al
+gedit .gitconfig // to open that config file
+
+//go to the directory where you want to clone your file
+cd fileName
+git clone https://github.com/ShakyaMohanty/MyWeb.git
+
+
+//create a file
+touch filename.ext
+ls : to check
+open code editor to write code and save
+
+//add to git
+git add filename.ext
+//add everything
+git add -A
+//commit to git
+git commit -m "my first HTML" filename.ext
+//push to GITHUB
+git push -u origin master
+//pull from GITHUB
+git pull
+
+//This will remove the Git tracking and metadata from your project
+rm -rf .git*
+
+//add a project folder
+-go to that folder and open terminal
+rm -rf .git*
+git init
+git add .
+git commit -m "repositoryName"
+git remote add origin /cloneURL/
+git push origin master or git push origin master --force
+
+ 
+
+
+
